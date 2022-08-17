@@ -1,0 +1,34 @@
+
+		body{
+			padding: 0;
+			margin: 0;
+			background-color: black;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-height: 100px;
+		}
+
+		.left{
+			border-left: 4px dotted red;
+			
+			height: 50px;
+			width: 50px;
+			border-radius: 50px;
+			animation:loder 1s infinite;
+
+		}
+
+		@keyframes loder{
+			0%{
+				
+				transform: rotate(0deg);
+			}
+			100%{
+				
+				transform: rotate(365deg)
+
+			}
+		}
+
+	
